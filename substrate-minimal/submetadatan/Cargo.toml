@@ -1,0 +1,19 @@
+[package]
+authors     = ["Xavier Lau <xavier@inv.cafe>"]
+description = "submetadatan"
+edition     = "2021"
+homepage    = "https://subalfred.hack.ink"
+license     = "GPL-3.0"
+name        = "submetadatan"
+readme      = "README.md"
+repository  = "https://github.com/hack-ink/subalfred"
+version     = "0.9.0"
+
+[badges]
+maintenance = { status = "actively-developed" }
+
+[dependencies]
+# crates.io
+frame-metadata = { version = "15.0" }
+scale-info     = { version = "2.2" }
+thiserror      = { version = "1.0" }
